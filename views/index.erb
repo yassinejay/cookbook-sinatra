@@ -1,0 +1,11 @@
+<p>
+  I'm in a <em>view</em>!
+</p>
+<%= Time.now %>
+<ul>
+  <% @username.each do |username| %>
+    <li>
+      <%= username %>
+    </li>
+  <% end %>
+</ul>
